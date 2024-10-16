@@ -20,11 +20,7 @@ const students = [
 ];
 
 // Recupera la classe dello studente 'Marco Lanci'
-const myClass = students.find(e => {
-  if (e.name.toLowerCase()==="marco lanci"){
-    return e
-  }
-})
+const myClass = students.find(e => (e.name.toLowerCase()==="marco lanci"))
 
 console.log(myClass.class);
 
